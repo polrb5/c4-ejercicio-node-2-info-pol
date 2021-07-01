@@ -13,3 +13,7 @@ setTimeout(() => {
     console.log("Tú molas");
   }
 }, 2000);
+
+const os = require("os");
+
+console.log(`La versión de tu sistema operativo es ${os.version()}`);
