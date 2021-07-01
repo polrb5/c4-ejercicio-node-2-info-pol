@@ -9,6 +9,8 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
+    quotes: ["error", "double"],
+    semi: "error",
     "no-shadow": "off",
     "no-console": "off",
     "arrow-parens": "off",
