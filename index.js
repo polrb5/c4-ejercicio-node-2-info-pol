@@ -16,4 +16,8 @@ setTimeout(() => {
 
 const os = require("os");
 
+console.log(`Cuidado, te quedan ${os.freemem()} Mb de RAM libre`);
 console.log(`La versión de tu sistema operativo es ${os.version()}`);
+console.log(
+  `Tu usuario del sistema operativo es ${os.homedir()} y tu carpeta es ${__dirname}`
+);
